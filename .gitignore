@@ -1,0 +1,9 @@
+.env
+bin
+tmp
+node_modules
+*_templ.go
+.branches
+.temp
+.env
+*.txt

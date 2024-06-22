@@ -1,0 +1,19 @@
+package pages
+
+import (
+	"TemplateGen/views/layouts"
+)
+
+templ Index() {
+	@layouts.Base() {
+		<div class="h-full w-full grid grid-rows-12 p-5 gap-5">
+			<div class="grid grid-cols-2 gap-2 justify-items-start content-center w-full grow">
+				<div class="text-2xl flex justify-center items-center text-center">Mantis ticket:</div>
+				<input type="text" placeholder="Mantis ticket id" class="input input-bordered w-full max-w-xs"/>
+			</div>
+			<div class="grid grid-cols-2 gap-2 justify-items-start content-center w-full">
+				<div class="text-2xl flex justify-center items-center text-center">Select Query:</div>
+			</div>
+		</div>
+	}
+}
